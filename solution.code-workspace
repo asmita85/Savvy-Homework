@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "../sc-curriculum/Week4-HTML&CSS"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../sc-curriculum"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.multiRootWorkspaceName": "practice"
+	}
+}

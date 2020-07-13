@@ -118,7 +118,7 @@ function fixMessageServePizza(toppingList){
             }
         }
     }else if (toppingList.length===0){
-          pizza =`Oder up! Heres your plain ${obj.orderSize} ${obj.orderCrust} pizza.`;
+          pizza =`Order up! Heres your plain ${obj.orderSize} ${obj.orderCrust} pizza.`;
         
         }
         return pizza;
