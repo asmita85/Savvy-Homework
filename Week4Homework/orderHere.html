@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+
+    <title>Order Here</title>
+</head>
+<body>
+    <h1 id="h1_Id">welcome</h1>
+ <p id="p1_Id">topping_list</p>
+
+<div class="main">
+
+    <div class="id_of_div10">Please select your toppings:
+        <input type="checkbox" id="id_of_checkbox1" class="items1" name="top1" value="Chicken">
+        <label for="top1">chicken</label>
+        <input type="checkbox" id="id_of_checkbox2" class="items1" name="top2" value="onion">
+        <label for="top2">onion</label>
+        <input type="checkbox" id="id_of_checkbox3" class="items1" name="top3" value="spinach">
+        <label for="top3">spinach</label>
+        <input type="checkbox" id="id_of_checkbox4" class="items1" name="top4" value="Extra cheese">
+        <label for="top4">extra cheese</label>
+        <input type="checkbox" id="id_of_checkbox5" class="items1" name="top5" value="red pepper">
+        <label for="top5">red pepper</label>
+    </div>
+
+    <div class="id_of_div10">Please select your curst:
+        <input type="radio" id="id_of_radio1" class="items2" name="top6" value="thin">
+        <label for="top1">thin</label>
+        <input type="radio" id="id_of_radio2" class="items2" name="top6" value="thick">
+        <label for="top2">thick</label>
+        <input type="radio" id="id_of_radio3" class="items2" name="top6" value="brooklyn">
+        <label for="top3">brooklyn</label>
+    </div>
+
+    <div class="id_of_div10">Please select size:
+        <input type="radio" id="id_of_radio4" class="items3" name="top7" value="small">
+        <label for="top1">small</label>
+        <input type="radio" id="id_of_radio5" class="items3" name="top7" value="medium">
+        <label for="top2">medium</label>
+        <input type="radio" id="id_of_radio6" class="items3" name="top7" value="large">
+        <label for="top3">large</label>
+    </div>
+</div>
+
+    <input type="button" onclick="printChecked()" value="Submit your order"/>
+    <h1 id="h3Id"></h1>
+    <h1 id="h4Id"></h1>
+
+    <input type="button" onclick="topp()" value="order status"/>
+    <h1 id="h5Id"></h1>
+    <h1 id="h7Id"></h1>
+</body>
+
+<script src="index.js"></script>
+
+</html>
