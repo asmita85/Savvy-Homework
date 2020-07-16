@@ -20,10 +20,11 @@
   "files.eol": "\n",
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
-  "stylelint.enable": true,
+  "stylelint.enable": false,
   "terminal.integrated.fontFamily": "'Inconsolata', monospace",
   "workbench.colorTheme": "Material Theme",
   "workbench.enableExperiments": false,
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.view.alwaysShowHeaderActions": true
+  "workbench.view.alwaysShowHeaderActions": true,
+  "liveServer.settings.port": 5501
 }
