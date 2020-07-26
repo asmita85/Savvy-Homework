@@ -2,7 +2,6 @@ class Product {
     constructor(id, category){
     this.id = id;
     this.name = name;
-    this.date = date;
 }
 }
 class TShirt extends Product {
@@ -16,7 +15,6 @@ class TShirt extends Product {
     this.color = color;
 }
 }
-
 class Shoes extends Product {
     constructor(id, category, name, brand, description, price, size, color, type, typeId){
     super(id, category);
